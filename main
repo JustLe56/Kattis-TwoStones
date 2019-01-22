@@ -1,0 +1,11 @@
+#required to import sys for Kattis
+#replace number with actual intger to test
+import sys
+
+number = int(input());
+isItOdd = number%2;
+
+if (isItOdd == 1):
+  print("Alice")
+else:
+  print("Bob")
